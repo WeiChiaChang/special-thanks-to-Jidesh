@@ -1,6 +1,8 @@
 body {
+  margin: 0;
   font-family: 'Ubuntu', sans-serif;
-  background: salmon;
+  /*background: salmon;*/
+  background: #1e2c32;
   font-size: 80%;
   display: flex;
   justify-content: center;
@@ -10,9 +12,9 @@ body {
 }
 
 .wrapper {
-  background: white;
+  background: rgba(255,255,255,.8);
   height: 200px;
-  width: 400px;
+  width: 360px;
   padding: 20px;
   margin: 20px;
   display: flex;
@@ -22,6 +24,8 @@ body {
   /* resize: vertical; */
   border-radius: 10px;
   overflow: auto;
+  position: absolute;
+  border: 8px solid #eee;
 }
 
 .wrapper div {
